@@ -1,0 +1,23 @@
+{
+  "name": "vetrix",
+  "version": "0.0.1",
+  "description": "Converts a vector into a matrix",
+  "main": "vetrix.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "vector",
+    "matrix",
+    "convert",
+    "transform",
+    "unidimensional",
+    "bidimensional",
+    "array"
+  ],
+  "author": "James Kolce <contact@jameskolce.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
