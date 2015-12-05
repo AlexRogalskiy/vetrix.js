@@ -1,6 +1,6 @@
 # Vetrix.js
 
-> Converts a vector into an array
+> Converts a vector into a matrix
 
 ## Install
 
