@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Converts a vector into a matrix",
   "main": "vetrix.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameskolce/vetrix.js.git"
+  },
   "scripts": {
     "test": "mocha"
   },
