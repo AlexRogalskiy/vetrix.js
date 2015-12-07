@@ -10,7 +10,7 @@
 
 ### `vetrix(vector, columns)`
 
-## Example
+## Examples
 
 ```JS
 
@@ -22,5 +22,14 @@ var b = vetrix(a, 3);
 
 ```
 
+```JS
+
+var vetrix = require('vetrix');
+
+var a = [1,2,3,4,5];
+var b = vetrix(a, 2);
+// b = [[1,2],[3,4],[5]]
+
+```
 
 
