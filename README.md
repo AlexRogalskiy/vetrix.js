@@ -8,7 +8,7 @@
 
 ## Usage
 
-### `vetrix(vector, columns)`
+`vetrix(vector, columns)`
 
 ## Examples
 
