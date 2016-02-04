@@ -1,12 +1,12 @@
 module.exports = function (elements, columns) {
-  'use strict';
-
-  return elements.reduce(function (previous, element, current) {
+  if (!Array.isArray(elements)) return []
+  
+  return elements.reduce(function (buf, element, current) {
     if (current % columns === 0)
-      previous.push([element]);
+      buf.push([ element ])
     else
-      previous[previous.length - 1].push(element);
+      buf[buf.length - 1].push(element)
 
-    return previous;
-  }, []);
-};
+    return buf
+  }, [])
+}
